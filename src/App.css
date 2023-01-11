@@ -1,38 +1,30 @@
 .App {
   text-align: center;
+  background-color: rgb(218, 223, 222);
+}
+.name{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style:oblique;
+  color: rgba(181, 90, 176, 0.916);
+}
+.username{font-size: larger;
+font-style: inherit;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.street{
+  font-size: larger;
+ font-style: italic;
+}
+.phone{
+  font-size:large;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.website{
+  font-size:larger;
+font-family:Arial, Helvetica, sans-serif
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bs{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: initial;
 }
